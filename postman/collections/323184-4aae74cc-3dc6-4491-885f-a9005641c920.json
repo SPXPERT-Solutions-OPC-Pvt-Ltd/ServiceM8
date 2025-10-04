@@ -346,6 +346,11 @@
 			"name": "JobActivity",
 			"item": [
 				{
+					"name": "New Folder",
+					"item": [],
+					"id": "323184-3d0900e6-680b-4d12-a502-3d61fb665022"
+				},
+				{
 					"name": "New Request",
 					"id": "323184-0e730a8a-d628-4911-85b9-ae74f74cc742",
 					"protocolProfileBehavior": {
