@@ -684,7 +684,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "a29a3721-7d3c-4041-88c6-ba32d8b6b23b",
+				"id": "72ee82da-e91c-4168-ba6e-915f08f463e7",
 				"type": "text/javascript",
 				"requests": {},
 				"exec": [
@@ -695,12 +695,12 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "b8f4926b-4efd-41c9-9836-3cbbd68fac74",
+				"id": "beea9f93-f9a0-41f3-ace6-fe937416891d",
 				"type": "text/javascript",
 				"requests": {},
 				"exec": [
 					"let responseData = pm.response.json();",
-					"console.log(res)",
+					"console.log(responseData);",
 					"pm.environment.set(\"access_token\", responseData.access_token);",
 					"pm.environment.set(\"refresh_token\", responseData.refresh_token);",
 					"",
