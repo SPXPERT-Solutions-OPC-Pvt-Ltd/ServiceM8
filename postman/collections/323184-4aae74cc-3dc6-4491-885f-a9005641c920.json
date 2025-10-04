@@ -448,7 +448,8 @@
 					"response": []
 				}
 			],
-			"id": "323184-d9a88ac0-1aef-4d7d-9957-5c1e7435b988"
+			"id": "323184-d9a88ac0-1aef-4d7d-9957-5c1e7435b988",
+			"description": "Use this API to get ServiceM8 account details."
 		},
 		{
 			"name": "Attachments",
