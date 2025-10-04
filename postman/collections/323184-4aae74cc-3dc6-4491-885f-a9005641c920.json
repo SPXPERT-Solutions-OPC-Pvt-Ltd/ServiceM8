@@ -264,13 +264,13 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{base_url}}/api_1.0/material.json?$filter=active eq 1",
+							"raw": "{{base_url}}/api_1.0/jobmaterial.json?$filter=active eq 1",
 							"host": [
 								"{{base_url}}"
 							],
 							"path": [
 								"api_1.0",
-								"material.json"
+								"jobmaterial.json"
 							],
 							"query": [
 								{
