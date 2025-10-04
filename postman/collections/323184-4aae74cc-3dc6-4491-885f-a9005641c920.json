@@ -349,7 +349,7 @@
 					"name": "Scheduled Booking",
 					"item": [
 						{
-							"name": "Schedule Job Activity",
+							"name": "Scheduled Activity",
 							"id": "323184-a033cf8f-df43-4b26-890e-50aeba4ee4d8",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
