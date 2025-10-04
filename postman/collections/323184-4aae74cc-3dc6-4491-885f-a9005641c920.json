@@ -487,7 +487,7 @@
 							"response": []
 						},
 						{
-							"name": "Job Invoice Copy",
+							"name": "Job Quote",
 							"id": "323184-09152fdf-6ed1-4607-85bc-3f06eb58f2fb",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
