@@ -254,7 +254,8 @@
 		{
 			"name": "JobMaterial",
 			"item": [],
-			"id": "323184-b3777b25-4b98-431d-849a-2167136721e0"
+			"id": "323184-b3777b25-4b98-431d-849a-2167136721e0",
+			"description": "Use this collection to get Line items on a quote/invoice.  \n  \nFor more details please check ServiceM8 Official API documentation\n\n[https://developer.servicem8.com/docs/rest-overview](https://developer.servicem8.com/docs/rest-overview)"
 		},
 		{
 			"name": "Get data",
