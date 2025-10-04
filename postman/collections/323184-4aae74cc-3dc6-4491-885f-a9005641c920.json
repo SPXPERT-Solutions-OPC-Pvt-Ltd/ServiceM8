@@ -344,7 +344,20 @@
 		},
 		{
 			"name": "JobActivity",
-			"item": [],
+			"item": [
+				{
+					"name": "New Request",
+					"id": "323184-0e730a8a-d628-4911-85b9-ae74f74cc742",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			],
 			"id": "323184-34d817e9-cc9b-4b75-af53-3bececfc8441"
 		},
 		{
