@@ -577,7 +577,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "1bfd6af4-c924-4668-89f5-7142435b54e7",
+				"id": "1d02bd2e-88d5-4699-ba9c-c301c2b87af2",
 				"type": "text/javascript",
 				"requests": {},
 				"exec": [
@@ -588,11 +588,11 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "03af5fa0-23a7-42fc-bd7e-68f337305946",
+				"id": "cb36d055-7c42-43ee-85ef-c859d130c890",
 				"type": "text/javascript",
 				"requests": {},
 				"exec": [
-					"pm.environment.set(\"variable_key\", \"variable_value\");"
+					"pm.environment.set(\"access_token\", \"access_token\");"
 				]
 			}
 		}
