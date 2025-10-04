@@ -383,6 +383,11 @@
 					"item": [],
 					"id": "323184-6ca65ff6-b8d5-4ffa-98d7-92e8b26ddf4c",
 					"description": "Samples to read attachments like Quotes, Invoices, Work Orders in the Job Diary"
+				},
+				{
+					"name": "New Folder",
+					"item": [],
+					"id": "323184-13f1522f-1ab2-4c9a-924d-7a771e0c6c4b"
 				}
 			],
 			"id": "323184-e049e540-8eb5-4162-845a-503cc5717b7f"
