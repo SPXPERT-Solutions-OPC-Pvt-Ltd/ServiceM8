@@ -577,7 +577,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "b28fd903-1309-417d-a282-3b67e1e3b3b5",
+				"id": "daa37416-8ef4-41e3-8d32-7a34327e4eb2",
 				"type": "text/javascript",
 				"requests": {},
 				"exec": [
@@ -588,16 +588,17 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "7d84a5ed-7105-44fc-b187-77746ad8cc54",
+				"id": "4c175af6-f698-4572-807d-6310ee516fe1",
 				"type": "text/javascript",
 				"requests": {},
 				"exec": [
 					"let responseData = pm.response.json();",
-					"pm.environment.set(\"userId\", responseData.access_token);",
+					"pm.environment.set(\"access_token\", responseData.access_token);",
+					"pm.environment.set(\"refresh_token\", \"access_token\");",
+					"",
+					"",
 					"console.log(\"User ID set to:\", pm.environment.get(\"userId\"));",
 					"",
-					"pm.environment.set(\"access_token\", \"access_token\");",
-					"pm.environment.set(\"refresh_token\", \"access_token\");",
 					"",
 					""
 				]
