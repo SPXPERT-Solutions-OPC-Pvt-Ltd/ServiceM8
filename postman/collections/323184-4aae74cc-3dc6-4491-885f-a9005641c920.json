@@ -346,9 +346,14 @@
 			"name": "JobActivity",
 			"item": [
 				{
-					"name": "New Folder",
+					"name": "Scheduled Booking",
 					"item": [],
 					"id": "323184-3d0900e6-680b-4d12-a502-3d61fb665022"
+				},
+				{
+					"name": "New Folder",
+					"item": [],
+					"id": "323184-5e52ce80-8928-47e8-8692-462f60270449"
 				},
 				{
 					"name": "New Request",
