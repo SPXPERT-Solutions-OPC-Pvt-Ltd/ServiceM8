@@ -418,7 +418,36 @@
 		},
 		{
 			"name": "Vendor",
-			"item": [],
+			"item": [
+				{
+					"name": "Recorded Time Copy",
+					"id": "323184-74325954-9ae3-475a-9b40-503b12572ed6",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api_1.0/jobactivity.json?$filter=active eq 1 and activity_was_scheduled eq 0",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api_1.0",
+								"jobactivity.json"
+							],
+							"query": [
+								{
+									"key": "$filter",
+									"value": "active eq 1 and activity_was_scheduled eq 0"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
 			"id": "323184-d9a88ac0-1aef-4d7d-9957-5c1e7435b988"
 		},
 		{
