@@ -496,7 +496,7 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{base_url}}/api_1.0/attachment.json?$filter=active eq 1",
+									"raw": "{{base_url}}/api_1.0/attachment.json?$filter=active eq 1 and attachment_source eq 'quote'",
 									"host": [
 										"{{base_url}}"
 									],
@@ -507,7 +507,7 @@
 									"query": [
 										{
 											"key": "$filter",
-											"value": "active eq 1"
+											"value": "active eq 1 and attachment_source eq 'quote'"
 										}
 									]
 								}
