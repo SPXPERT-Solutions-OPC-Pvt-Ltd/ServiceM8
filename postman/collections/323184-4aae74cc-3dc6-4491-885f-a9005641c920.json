@@ -414,7 +414,8 @@
 					"id": "323184-5e52ce80-8928-47e8-8692-462f60270449"
 				}
 			],
-			"id": "323184-34d817e9-cc9b-4b75-af53-3bececfc8441"
+			"id": "323184-34d817e9-cc9b-4b75-af53-3bececfc8441",
+			"description": "| Scheduled Booking | JobActivity<br><br>(`activity_was_scheduled` == 1) |\n| Recorded Time (check in to a job) | JobActivity<br><br>(`activity_was_scheduled` == 0) |"
 		},
 		{
 			"name": "Vendor",
