@@ -376,8 +376,14 @@
 			"id": "323184-d9a88ac0-1aef-4d7d-9957-5c1e7435b988"
 		},
 		{
-			"name": "New Folder",
-			"item": [],
+			"name": "Attachments",
+			"item": [
+				{
+					"name": "New Folder",
+					"item": [],
+					"id": "323184-6ca65ff6-b8d5-4ffa-98d7-92e8b26ddf4c"
+				}
+			],
 			"id": "323184-e049e540-8eb5-4162-845a-503cc5717b7f"
 		},
 		{
