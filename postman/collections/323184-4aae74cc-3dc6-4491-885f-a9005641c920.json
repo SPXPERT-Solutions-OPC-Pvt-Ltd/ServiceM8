@@ -468,13 +468,13 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{base_url}}/api_1.0/vendor.json?$filter=active eq 1",
+									"raw": "{{base_url}}/api_1.0/attachments.json?$filter=active eq 1",
 									"host": [
 										"{{base_url}}"
 									],
 									"path": [
 										"api_1.0",
-										"vendor.json"
+										"attachments.json"
 									],
 									"query": [
 										{
