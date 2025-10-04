@@ -358,18 +358,18 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{base_url}}/api_1.0/jobmaterial.json?$filter=active eq 1",
+									"raw": "{{base_url}}/api_1.0/jobactivity.json?$filter=active eq 1 and activity_was_scheduled eq 1",
 									"host": [
 										"{{base_url}}"
 									],
 									"path": [
 										"api_1.0",
-										"jobmaterial.json"
+										"jobactivity.json"
 									],
 									"query": [
 										{
 											"key": "$filter",
-											"value": "active eq 1"
+											"value": "active eq 1 and activity_was_scheduled eq 1"
 										}
 									]
 								}
