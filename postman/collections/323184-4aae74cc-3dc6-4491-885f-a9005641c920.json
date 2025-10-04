@@ -459,7 +459,7 @@
 					"name": "Quotes, Invoices, Work Orders in the Job Diary",
 					"item": [
 						{
-							"name": "Vendor Details Copy",
+							"name": "Get Quotes",
 							"id": "323184-1820d992-62ad-4dc7-a2db-04b534f8f940",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
