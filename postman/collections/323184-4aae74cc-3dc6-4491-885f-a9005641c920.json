@@ -309,6 +309,34 @@
 						}
 					},
 					"response": []
+				},
+				{
+					"name": "By Name Copy",
+					"id": "323184-4cdcbbe0-0408-4924-be81-eb3009b2eb85",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api_1.0/jobmaterial.json?$filter=active eq 1",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api_1.0",
+								"jobmaterial.json"
+							],
+							"query": [
+								{
+									"key": "$filter",
+									"value": "active eq 1"
+								}
+							]
+						}
+					},
+					"response": []
 				}
 			],
 			"id": "323184-b3777b25-4b98-431d-849a-2167136721e0",
