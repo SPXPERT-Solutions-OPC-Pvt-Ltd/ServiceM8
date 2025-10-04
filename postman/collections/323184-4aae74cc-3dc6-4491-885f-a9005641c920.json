@@ -457,7 +457,36 @@
 			"item": [
 				{
 					"name": "Quotes, Invoices, Work Orders in the Job Diary",
-					"item": [],
+					"item": [
+						{
+							"name": "Vendor Details Copy",
+							"id": "323184-1820d992-62ad-4dc7-a2db-04b534f8f940",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/api_1.0/vendor.json?$filter=active eq 1",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"api_1.0",
+										"vendor.json"
+									],
+									"query": [
+										{
+											"key": "$filter",
+											"value": "active eq 1"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					],
 					"id": "323184-6ca65ff6-b8d5-4ffa-98d7-92e8b26ddf4c",
 					"description": "Samples to read attachments like Quotes, Invoices, Work Orders in the Job Diary"
 				},
