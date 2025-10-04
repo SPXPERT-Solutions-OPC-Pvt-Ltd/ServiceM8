@@ -248,7 +248,8 @@
 					"response": []
 				}
 			],
-			"id": "323184-57735802-3f24-434f-b5d6-37bd2e8844aa"
+			"id": "323184-57735802-3f24-434f-b5d6-37bd2e8844aa",
+			"description": "Use this collection to get material details from your ServiceM8 setup."
 		},
 		{
 			"name": "JobMaterial",
