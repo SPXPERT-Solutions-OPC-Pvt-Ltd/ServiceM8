@@ -311,7 +311,7 @@
 					"response": []
 				},
 				{
-					"name": "By Name Copy",
+					"name": "By Price",
 					"id": "323184-4cdcbbe0-0408-4924-be81-eb3009b2eb85",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
