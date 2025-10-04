@@ -383,18 +383,6 @@
 					"name": "Recorded Time",
 					"item": [],
 					"id": "323184-5e52ce80-8928-47e8-8692-462f60270449"
-				},
-				{
-					"name": "New Request",
-					"id": "323184-0e730a8a-d628-4911-85b9-ae74f74cc742",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
-					"request": {
-						"method": "GET",
-						"header": []
-					},
-					"response": []
 				}
 			],
 			"id": "323184-34d817e9-cc9b-4b75-af53-3bececfc8441"
