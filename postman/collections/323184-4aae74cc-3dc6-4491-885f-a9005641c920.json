@@ -255,7 +255,7 @@
 			"name": "JobMaterial",
 			"item": [
 				{
-					"name": "Active Materials Copy",
+					"name": "Job Materials",
 					"id": "323184-a1fc10b1-d463-4c14-839b-910ea117e0e0",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
