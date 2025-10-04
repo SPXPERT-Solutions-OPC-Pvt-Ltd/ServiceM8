@@ -347,7 +347,36 @@
 			"item": [
 				{
 					"name": "Scheduled Booking",
-					"item": [],
+					"item": [
+						{
+							"name": "Job Materials Copy",
+							"id": "323184-a033cf8f-df43-4b26-890e-50aeba4ee4d8",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/api_1.0/jobmaterial.json?$filter=active eq 1",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"api_1.0",
+										"jobmaterial.json"
+									],
+									"query": [
+										{
+											"key": "$filter",
+											"value": "active eq 1"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					],
 					"id": "323184-3d0900e6-680b-4d12-a502-3d61fb665022"
 				},
 				{
