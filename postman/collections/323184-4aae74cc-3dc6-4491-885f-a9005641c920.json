@@ -420,7 +420,7 @@
 			"name": "Vendor",
 			"item": [
 				{
-					"name": "VendorDetails",
+					"name": "Vendor Details",
 					"id": "323184-74325954-9ae3-475a-9b40-503b12572ed6",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
