@@ -281,6 +281,34 @@
 						}
 					},
 					"response": []
+				},
+				{
+					"name": "Job Materials Copy",
+					"id": "323184-7537c6e7-7c7e-42a3-a94b-f53a15840ce6",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api_1.0/jobmaterial.json?$filter=active eq 1",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api_1.0",
+								"jobmaterial.json"
+							],
+							"query": [
+								{
+									"key": "$filter",
+									"value": "active eq 1"
+								}
+							]
+						}
+					},
+					"response": []
 				}
 			],
 			"id": "323184-b3777b25-4b98-431d-849a-2167136721e0",
