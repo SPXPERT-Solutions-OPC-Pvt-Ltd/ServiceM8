@@ -38,6 +38,34 @@
 					"response": []
 				},
 				{
+					"name": "Active Jobs Copy",
+					"id": "323184-a2a16b0f-162e-4095-8bf6-88970c7674cc",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api_1.0/job.json?$filter=active eq 1",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api_1.0",
+								"job.json"
+							],
+							"query": [
+								{
+									"key": "$filter",
+									"value": "active eq 1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
 					"name": "Status Filter",
 					"id": "323184-5ea04be8-464b-4a67-91d3-135f44408d08",
 					"protocolProfileBehavior": {
