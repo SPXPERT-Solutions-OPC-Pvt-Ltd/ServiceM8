@@ -94,7 +94,7 @@
 					"response": [
 						{
 							"id": "323184-75b102e7-c9b4-47a9-8b3a-fe4b411edc18",
-							"name": "Jobs Completed",
+							"name": "Quote",
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
