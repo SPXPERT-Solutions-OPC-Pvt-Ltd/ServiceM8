@@ -409,34 +409,6 @@
 								}
 							},
 							"response": []
-						},
-						{
-							"name": "Recorded Time Copy",
-							"id": "323184-fb4db01c-4ee8-411f-9798-408f9f06d62e",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"method": "GET",
-								"header": [],
-								"url": {
-									"raw": "{{base_url}}/api_1.0/jobactivity.json?$filter=active eq 1 and activity_was_scheduled eq 0",
-									"host": [
-										"{{base_url}}"
-									],
-									"path": [
-										"api_1.0",
-										"jobactivity.json"
-									],
-									"query": [
-										{
-											"key": "$filter",
-											"value": "active eq 1 and activity_was_scheduled eq 0"
-										}
-									]
-								}
-							},
-							"response": []
 						}
 					],
 					"id": "323184-5e52ce80-8928-47e8-8692-462f60270449"
@@ -614,7 +586,36 @@
 		},
 		{
 			"name": "Job Payments",
-			"item": [],
+			"item": [
+				{
+					"name": "Job Payments",
+					"id": "323184-fb4db01c-4ee8-411f-9798-408f9f06d62e",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api_1.0/jobactivity.json?$filter=active eq 1 and activity_was_scheduled eq 0",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api_1.0",
+								"jobactivity.json"
+							],
+							"query": [
+								{
+									"key": "$filter",
+									"value": "active eq 1 and activity_was_scheduled eq 0"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
 			"id": "323184-6b870809-5a1c-48ab-be11-5a4af737d2a7"
 		},
 		{
