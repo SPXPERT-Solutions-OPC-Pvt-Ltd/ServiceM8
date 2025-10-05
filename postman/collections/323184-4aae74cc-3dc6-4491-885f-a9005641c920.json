@@ -186,7 +186,7 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{base_url}}/api_1.0/job.json?$filter=status eq 'Completed'",
+									"raw": "{{base_url}}/api_1.0/job.json?$filter=status eq 'Unsuccessfull'",
 									"host": [
 										"{{base_url}}"
 									],
@@ -197,7 +197,7 @@
 									"query": [
 										{
 											"key": "$filter",
-											"value": "status eq 'Completed'"
+											"value": "status eq 'Unsuccessfull'"
 										}
 									]
 								}
