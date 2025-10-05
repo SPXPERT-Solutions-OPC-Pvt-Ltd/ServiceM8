@@ -597,13 +597,13 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{base_url}}/api_1.0/jobactivity.json?$filter=active eq 1 and activity_was_scheduled eq 0",
+							"raw": "{{base_url}}/api_1.0/jobpayments.json?$filter=active eq 1 and activity_was_scheduled eq 0",
 							"host": [
 								"{{base_url}}"
 							],
 							"path": [
 								"api_1.0",
-								"jobactivity.json"
+								"jobpayments.json"
 							],
 							"query": [
 								{
