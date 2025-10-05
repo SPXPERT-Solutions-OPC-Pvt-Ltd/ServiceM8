@@ -152,12 +152,12 @@
 						},
 						{
 							"id": "323184-ed1645b7-f9c0-4aaa-aee8-9c64a92e9611",
-							"name": "Work Order",
+							"name": "Job Status",
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{base_url}}/api_1.0/job.json?$filter=status eq 'Completed'",
+									"raw": "{{base_url}}/api_1.0/job.json?$filter=status eq 'Work Order'",
 									"host": [
 										"{{base_url}}"
 									],
@@ -168,16 +168,22 @@
 									"query": [
 										{
 											"key": "$filter",
-											"value": "status eq 'Completed'"
+											"value": "status eq 'Work Order'"
 										}
 									]
 								}
 							},
-							"_postman_previewlanguage": null,
-							"header": null,
-							"cookie": [],
+							"_postman_previewlanguage": "",
+							"header": [],
+							"cookie": [
+								{
+									"expires": "Invalid Date",
+									"domain": "",
+									"path": ""
+								}
+							],
 							"responseTime": null,
-							"body": null
+							"body": ""
 						},
 						{
 							"id": "323184-52d8933f-937f-4e01-8b94-3efff772107c",
