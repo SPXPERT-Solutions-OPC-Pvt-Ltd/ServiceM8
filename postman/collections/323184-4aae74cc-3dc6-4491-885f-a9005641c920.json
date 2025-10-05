@@ -152,7 +152,7 @@
 						},
 						{
 							"id": "323184-ed1645b7-f9c0-4aaa-aee8-9c64a92e9611",
-							"name": "Job Status",
+							"name": "Work Order",
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
