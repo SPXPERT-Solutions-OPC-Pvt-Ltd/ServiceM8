@@ -38,7 +38,7 @@
 					"response": []
 				},
 				{
-					"name": "Active Jobs Copy",
+					"name": "Get Job",
 					"id": "323184-a2a16b0f-162e-4095-8bf6-88970c7674cc",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
