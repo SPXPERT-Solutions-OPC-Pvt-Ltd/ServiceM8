@@ -75,7 +75,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{base_url}}/api_1.0/job.json?$filter=active eq 1",
+							"raw": "{{base_url}}/api_1.0/job.json?$filter=status eq 'Completed'",
 							"host": [
 								"{{base_url}}"
 							],
@@ -86,7 +86,7 @@
 							"query": [
 								{
 									"key": "$filter",
-									"value": "active eq 1"
+									"value": "status eq 'Completed'"
 								}
 							]
 						}
