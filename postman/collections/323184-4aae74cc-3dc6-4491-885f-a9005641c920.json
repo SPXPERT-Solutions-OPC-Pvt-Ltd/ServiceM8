@@ -120,6 +120,35 @@
 							"cookie": [],
 							"responseTime": null,
 							"body": null
+						},
+						{
+							"id": "323184-ccc035a3-7f23-4215-a8cf-11855eb00120",
+							"name": "Jobs Completed",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/api_1.0/job.json?$filter=status eq 'Completed'",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"api_1.0",
+										"job.json"
+									],
+									"query": [
+										{
+											"key": "$filter",
+											"value": "status eq 'Completed'"
+										}
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"responseTime": null,
+							"body": null
 						}
 					]
 				},
