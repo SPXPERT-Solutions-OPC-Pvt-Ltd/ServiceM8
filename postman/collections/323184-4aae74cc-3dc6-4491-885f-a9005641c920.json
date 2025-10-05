@@ -1082,7 +1082,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "b59a7422-c400-481e-9934-57e42bda5e6d",
+				"id": "c69043b0-c799-454e-a10d-7697325e3550",
 				"type": "text/javascript",
 				"requests": {},
 				"exec": [
@@ -1093,7 +1093,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "d2778fde-6a38-4f19-ac10-468c6c4fdea1",
+				"id": "49d2ab84-2233-4099-8d1d-b45f826615dc",
 				"type": "text/javascript",
 				"requests": {},
 				"exec": [
@@ -1113,11 +1113,6 @@
 		{
 			"key": "base_url",
 			"value": "https://template.postman-echo.com"
-		},
-		{
-			"key": "access_token",
-			"value": "",
-			"type": "default"
 		}
 	]
 }
