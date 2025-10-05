@@ -940,6 +940,11 @@
 		{
 			"key": "base_url",
 			"value": "https://template.postman-echo.com"
+		},
+		{
+			"key": "access_token",
+			"value": "",
+			"type": "default"
 		}
 	]
 }
