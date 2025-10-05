@@ -66,6 +66,34 @@
 					"response": []
 				},
 				{
+					"name": "Get Job Copy",
+					"id": "323184-b3ff88d5-8b56-494c-8147-166e9e54677d",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api_1.0/job.json?$filter=active eq 1",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api_1.0",
+								"job.json"
+							],
+							"query": [
+								{
+									"key": "$filter",
+									"value": "active eq 1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
 					"name": "Status Filter",
 					"id": "323184-5ea04be8-464b-4a67-91d3-135f44408d08",
 					"protocolProfileBehavior": {
