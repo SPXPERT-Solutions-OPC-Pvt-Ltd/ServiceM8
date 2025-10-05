@@ -123,7 +123,7 @@
 						},
 						{
 							"id": "323184-ccc035a3-7f23-4215-a8cf-11855eb00120",
-							"name": "Jobs Completed",
+							"name": "Completed",
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
