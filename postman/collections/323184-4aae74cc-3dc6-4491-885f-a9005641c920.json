@@ -178,6 +178,35 @@
 							"cookie": [],
 							"responseTime": null,
 							"body": null
+						},
+						{
+							"id": "323184-52d8933f-937f-4e01-8b94-3efff772107c",
+							"name": "Unsuccessfull",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/api_1.0/job.json?$filter=status eq 'Completed'",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"api_1.0",
+										"job.json"
+									],
+									"query": [
+										{
+											"key": "$filter",
+											"value": "status eq 'Completed'"
+										}
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"responseTime": null,
+							"body": null
 						}
 					]
 				},
