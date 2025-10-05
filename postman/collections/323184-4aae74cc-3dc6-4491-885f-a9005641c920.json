@@ -149,6 +149,35 @@
 							"cookie": [],
 							"responseTime": null,
 							"body": null
+						},
+						{
+							"id": "323184-ed1645b7-f9c0-4aaa-aee8-9c64a92e9611",
+							"name": "Job Status",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/api_1.0/job.json?$filter=status eq 'Completed'",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"api_1.0",
+										"job.json"
+									],
+									"query": [
+										{
+											"key": "$filter",
+											"value": "status eq 'Completed'"
+										}
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"responseTime": null,
+							"body": null
 						}
 					]
 				},
