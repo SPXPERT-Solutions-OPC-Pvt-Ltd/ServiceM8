@@ -47,7 +47,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{base_url}}/api_1.0/job.json?$filter=active eq 1",
+							"raw": "{{base_url}}/api_1.0/job.json?$filter=generated_job_id eq 'SPX-JOB-3'",
 							"host": [
 								"{{base_url}}"
 							],
@@ -58,7 +58,7 @@
 							"query": [
 								{
 									"key": "$filter",
-									"value": "active eq 1"
+									"value": "generated_job_id eq 'SPX-JOB-3'"
 								}
 							]
 						}
@@ -94,12 +94,12 @@
 					"response": [
 						{
 							"id": "323184-75b102e7-c9b4-47a9-8b3a-fe4b411edc18",
-							"name": "Quote",
+							"name": "Jobs Completed",
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{base_url}}/api_1.0/job.json?$filter=status eq 'Completed'",
+									"raw": "{{base_url}}/api_1.0/job.json?$filter=status eq 'Quote'",
 									"host": [
 										"{{base_url}}"
 									],
@@ -110,16 +110,22 @@
 									"query": [
 										{
 											"key": "$filter",
-											"value": "status eq 'Completed'"
+											"value": "status eq 'Quote'"
 										}
 									]
 								}
 							},
-							"_postman_previewlanguage": null,
-							"header": null,
-							"cookie": [],
+							"_postman_previewlanguage": "",
+							"header": [],
+							"cookie": [
+								{
+									"expires": "Invalid Date",
+									"domain": "",
+									"path": ""
+								}
+							],
 							"responseTime": null,
-							"body": null
+							"body": ""
 						},
 						{
 							"id": "323184-ccc035a3-7f23-4215-a8cf-11855eb00120",
@@ -647,7 +653,7 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{base_url}}/api_1.0/attachment.json?$filter=active eq 1",
+									"raw": "{{base_url}}/api_1.0/attachment.json?$filter=active eq 1 and attachment_source eq 'INVOICE'",
 									"host": [
 										"{{base_url}}"
 									],
@@ -658,7 +664,7 @@
 									"query": [
 										{
 											"key": "$filter",
-											"value": "active eq 1"
+											"value": "active eq 1 and attachment_source eq 'INVOICE'"
 										}
 									]
 								}
@@ -703,7 +709,7 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{base_url}}/api_1.0/attachment.json?$filter=active eq 1 and attachment_source eq 'quote'",
+									"raw": "{{base_url}}/api_1.0/attachment.json?$filter=active eq 1 and attachment_source eq 'form'",
 									"host": [
 										"{{base_url}}"
 									],
@@ -714,7 +720,7 @@
 									"query": [
 										{
 											"key": "$filter",
-											"value": "active eq 1 and attachment_source eq 'quote'"
+											"value": "active eq 1 and attachment_source eq 'form'"
 										}
 									]
 								}
@@ -738,7 +744,7 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{base_url}}/api_1.0/attachment.json?$filter=active eq 1 and attachment_source eq 'quote'",
+									"raw": "{{base_url}}/api_1.0/attachment.json?$filter=active eq 1 and attachment_source eq 'PHOTO'",
 									"host": [
 										"{{base_url}}"
 									],
@@ -749,7 +755,7 @@
 									"query": [
 										{
 											"key": "$filter",
-											"value": "active eq 1 and attachment_source eq 'quote'"
+											"value": "active eq 1 and attachment_source eq 'PHOTO'"
 										}
 									]
 								}
@@ -776,18 +782,18 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{base_url}}/api_1.0/jobpayments.json?$filter=active eq 1 and activity_was_scheduled eq 0",
+							"raw": "{{base_url}}/api_1.0/jobpayment.json?$filter=active eq 1",
 							"host": [
 								"{{base_url}}"
 							],
 							"path": [
 								"api_1.0",
-								"jobpayments.json"
+								"jobpayment.json"
 							],
 							"query": [
 								{
 									"key": "$filter",
-									"value": "active eq 1 and activity_was_scheduled eq 0"
+									"value": "active eq 1"
 								}
 							]
 						}
