@@ -873,7 +873,8 @@
 					"response": []
 				}
 			],
-			"id": "323184-3469268a-b305-4029-954d-299ca5b1aa8d"
+			"id": "323184-3469268a-b305-4029-954d-299ca5b1aa8d",
+			"description": "This example contains Webhooks API for ServiceM8 [https://developer.servicem8.com/docs/webhooks-overview](https://developer.servicem8.com/docs/webhooks-overview)  \n\n- List webhook subscriptions\n    \n- Create webhook subscription for object\n    \n- Create webhook subscription for event. To view supported events please check [https://developer.servicem8.com/reference/post_event_webhook_subscription](https://developer.servicem8.com/reference/post_event_webhook_subscription)"
 		},
 		{
 			"name": "Get data",
