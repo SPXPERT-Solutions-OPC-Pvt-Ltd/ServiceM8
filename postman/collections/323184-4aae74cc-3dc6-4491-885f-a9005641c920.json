@@ -835,16 +835,39 @@
 						"disableBodyPruning": true
 					},
 					"request": {
-						"method": "GET",
+						"method": "POST",
 						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "object",
+									"value": "job",
+									"type": "text",
+									"uuid": "43da6dce-ca09-4b88-83c4-c14651bfd4f5"
+								},
+								{
+									"key": "callback_url",
+									"value": "{{callback_url}}",
+									"type": "text",
+									"uuid": "d21b4ac7-b3c7-4a8a-a895-be58132fa2b5"
+								},
+								{
+									"key": "fields",
+									"value": "uuid, job_address,status",
+									"type": "text",
+									"uuid": "8aec487e-ce61-4ce7-bfc9-6f517b1dba8b"
+								}
+							]
+						},
 						"url": {
-							"raw": "{{base_url}}//webhook_subscriptions",
+							"raw": "{{base_url}}/webhook_subscriptions/object",
 							"host": [
 								"{{base_url}}"
 							],
 							"path": [
-								"",
-								"webhook_subscriptions"
+								"webhook_subscriptions",
+								"object"
 							]
 						}
 					},
