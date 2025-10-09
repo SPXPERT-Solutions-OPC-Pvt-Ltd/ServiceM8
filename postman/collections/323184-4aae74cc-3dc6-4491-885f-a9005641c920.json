@@ -1113,7 +1113,7 @@
 					},
 					{
 						"key": "refresh_token",
-						"value": "{{access_token}}",
+						"value": "{{refresh_token}}",
 						"enabled": true,
 						"send_as": "request_body"
 					}
@@ -1201,7 +1201,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "95faa051-a45d-4bcf-a509-8e537730b7ce",
+				"id": "6d211076-bfa2-4e35-bbad-fcb0d3e9372f",
 				"type": "text/javascript",
 				"requests": {},
 				"exec": [
@@ -1212,7 +1212,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "b179e87c-1cef-411a-ba14-4f58698e5ce0",
+				"id": "4f233473-b868-4f4f-8ece-09c51c9c3f51",
 				"type": "text/javascript",
 				"requests": {},
 				"exec": [
