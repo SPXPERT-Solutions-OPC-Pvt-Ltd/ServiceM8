@@ -890,6 +890,12 @@
 									"value": "job.created",
 									"type": "text",
 									"uuid": "042050dc-d371-4beb-9d18-f6980ec57e01"
+								},
+								{
+									"key": "callback_url",
+									"value": "{{callback_url}}",
+									"type": "text",
+									"uuid": "a3aa2f37-066e-4772-97d7-12abb9727fa0"
 								}
 							]
 						},
