@@ -859,14 +859,25 @@
 					"request": {
 						"method": "GET",
 						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "event",
+									"value": "job.created",
+									"type": "text",
+									"uuid": "042050dc-d371-4beb-9d18-f6980ec57e01"
+								}
+							]
+						},
 						"url": {
-							"raw": "{{base_url}}//webhook_subscriptions",
+							"raw": "{{base_url}}/webhook_subscriptions/event",
 							"host": [
 								"{{base_url}}"
 							],
 							"path": [
-								"",
-								"webhook_subscriptions"
+								"webhook_subscriptions",
+								"event"
 							]
 						}
 					},
