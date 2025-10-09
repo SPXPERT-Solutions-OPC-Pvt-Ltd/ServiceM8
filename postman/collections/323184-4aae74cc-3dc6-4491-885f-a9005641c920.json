@@ -816,19 +816,13 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{base_url}}/api_1.0/jobpayment.json?$filter=active eq 1",
+							"raw": "{{base_url}}//webhook_subscriptions",
 							"host": [
 								"{{base_url}}"
 							],
 							"path": [
-								"api_1.0",
-								"jobpayment.json"
-							],
-							"query": [
-								{
-									"key": "$filter",
-									"value": "active eq 1"
-								}
+								"",
+								"webhook_subscriptions"
 							]
 						}
 					},
