@@ -807,7 +807,7 @@
 			"name": "Webhooks",
 			"item": [
 				{
-					"name": "Job Payments Copy",
+					"name": "List Webhook Subscriptions",
 					"id": "323184-d78debfe-3c76-4a57-87dc-17cac468b0b2",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
