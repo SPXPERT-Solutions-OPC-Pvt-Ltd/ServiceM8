@@ -887,7 +887,7 @@
 							"formdata": [
 								{
 									"key": "event",
-									"value": "job.created",
+									"value": "job.created job.note_added",
 									"type": "text",
 									"uuid": "042050dc-d371-4beb-9d18-f6980ec57e01"
 								},
