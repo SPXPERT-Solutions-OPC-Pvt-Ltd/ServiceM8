@@ -827,6 +827,28 @@
 						}
 					},
 					"response": []
+				},
+				{
+					"name": "Create Object Webhoook Subscription",
+					"id": "323184-2193748b-23e4-4b20-96da-77c9a0b2f8cb",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}//webhook_subscriptions",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"",
+								"webhook_subscriptions"
+							]
+						}
+					},
+					"response": []
 				}
 			],
 			"id": "323184-3469268a-b305-4029-954d-299ca5b1aa8d"
