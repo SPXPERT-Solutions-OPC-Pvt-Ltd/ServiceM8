@@ -805,7 +805,36 @@
 		},
 		{
 			"name": "Webhooks",
-			"item": [],
+			"item": [
+				{
+					"name": "Job Payments Copy",
+					"id": "323184-d78debfe-3c76-4a57-87dc-17cac468b0b2",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api_1.0/jobpayment.json?$filter=active eq 1",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api_1.0",
+								"jobpayment.json"
+							],
+							"query": [
+								{
+									"key": "$filter",
+									"value": "active eq 1"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
 			"id": "323184-3469268a-b305-4029-954d-299ca5b1aa8d"
 		},
 		{
