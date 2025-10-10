@@ -976,11 +976,33 @@
 				},
 				{
 					"name": "Refresh Token",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "67d3069f-4f66-4487-9405-2ba0f1c8f1ce",
+								"exec": [
+									"",
+									"let responseData = pm.response.json();",
+									"pm.collectionVariables.set(\"access_token\", responseData.access_token);",
+									"pm.collectionVariables.set(\"refresh_token\",responseData.refresh_token);",
+									"",
+									"console.log(refresh_token)"
+								],
+								"type": "text/javascript",
+								"packages": {},
+								"requests": {}
+							}
+						}
+					],
 					"id": "323184-95837452-642f-44b0-90b9-5066113d5c51",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
 					"request": {
+						"auth": {
+							"type": "noauth"
+						},
 						"method": "POST",
 						"header": [],
 						"body": {
@@ -1013,7 +1035,7 @@
 							]
 						},
 						"url": {
-							"raw": "https://go.servicem8.com/oauth/access_token?grant_type=refresh_token&client_id={{client_id}}&client_secret={{client_secret}}&refresh_token={{refresh_token}}",
+							"raw": "https://go.servicem8.com/oauth/access_token",
 							"protocol": "https",
 							"host": [
 								"go",
@@ -1028,22 +1050,22 @@
 								{
 									"key": "grant_type",
 									"value": "refresh_token",
-									"type": "text"
+									"disabled": true
 								},
 								{
 									"key": "client_id",
 									"value": "{{client_id}}",
-									"type": "text"
+									"disabled": true
 								},
 								{
 									"key": "client_secret",
 									"value": "{{client_secret}}",
-									"type": "text"
+									"disabled": true
 								},
 								{
 									"key": "refresh_token",
 									"value": "{{refresh_token}}",
-									"type": "text"
+									"disabled": true
 								}
 							]
 						}
