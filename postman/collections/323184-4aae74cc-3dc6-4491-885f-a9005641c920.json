@@ -902,6 +902,24 @@
 									"value": "uuid, job_address,status",
 									"type": "text",
 									"uuid": "8aec487e-ce61-4ce7-bfc9-6f517b1dba8b"
+								},
+								{
+									"key": "event",
+									"value": "job.note_added",
+									"type": "text",
+									"uuid": "fc1a44dc-245a-4f89-a316-ad754c6681b6"
+								},
+								{
+									"key": "event",
+									"value": "job.status_changed",
+									"type": "text",
+									"uuid": "2ee21d1a-9cec-45f2-bbae-ce8ba95e9335"
+								},
+								{
+									"key": "event",
+									"value": "job.review_received",
+									"type": "text",
+									"uuid": "814dd149-f545-4e94-ab6f-5a80dcfd4b89"
 								}
 							]
 						},
