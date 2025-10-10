@@ -925,14 +925,14 @@
 						"disableBodyPruning": true
 					},
 					"request": {
-						"method": "POST",
+						"method": "DELETE",
 						"header": [],
 						"body": {
 							"mode": "formdata",
 							"formdata": [
 								{
 									"key": "event",
-									"value": "job.created job.note_added",
+									"value": "job.created",
 									"type": "text",
 									"uuid": "042050dc-d371-4beb-9d18-f6980ec57e01"
 								},
@@ -941,17 +941,23 @@
 									"value": "{{callback_url}}",
 									"type": "text",
 									"uuid": "a3aa2f37-066e-4772-97d7-12abb9727fa0"
+								},
+								{
+									"key": "event",
+									"value": "job.note_added",
+									"type": "text",
+									"uuid": "a385e579-7597-476e-be12-1b7f8f4172c4"
 								}
 							]
 						},
 						"url": {
-							"raw": "{{base_url}}/webhook_subscriptions/event",
+							"raw": "{{base_url}}/webhook_subscriptions/",
 							"host": [
 								"{{base_url}}"
 							],
 							"path": [
 								"webhook_subscriptions",
-								"event"
+								""
 							]
 						}
 					},
