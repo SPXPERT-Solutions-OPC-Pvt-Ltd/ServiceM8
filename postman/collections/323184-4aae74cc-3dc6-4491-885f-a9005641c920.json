@@ -889,7 +889,8 @@
 									"key": "object",
 									"value": "job",
 									"type": "text",
-									"uuid": "43da6dce-ca09-4b88-83c4-c14651bfd4f5"
+									"uuid": "43da6dce-ca09-4b88-83c4-c14651bfd4f5",
+									"disabled": true
 								},
 								{
 									"key": "callback_url",
