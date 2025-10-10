@@ -929,49 +929,34 @@
 						"header": [],
 						"body": {
 							"mode": "formdata",
-							"formdata": [
+							"formdata": []
+						},
+						"url": {
+							"raw": "{{base_url}}/webhook_subscriptions?event=job.created",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"webhook_subscriptions"
+							],
+							"query": [
 								{
-									"key": "event",
-									"value": "job.note_added",
+									"key": "unique_id",
+									"value": "269f814f-bbf6-4ac8-908b-2357d1c4ce7b",
 									"type": "text",
-									"uuid": "042050dc-d371-4beb-9d18-f6980ec57e01"
-								},
-								{
-									"key": "callback_url",
-									"value": "{{callback_url}}",
-									"type": "text",
-									"uuid": "a3aa2f37-066e-4772-97d7-12abb9727fa0",
-									"disabled": true
-								},
-								{
-									"key": "event",
-									"value": "job.note_added",
-									"type": "text",
-									"uuid": "a385e579-7597-476e-be12-1b7f8f4172c4",
 									"disabled": true
 								},
 								{
 									"key": "object",
 									"value": "job",
 									"type": "text",
-									"uuid": "4951d9e3-0ada-4537-98f4-69d1835b7e59",
 									"disabled": true
 								},
 								{
-									"key": "unique_id",
-									"value": "269f814f-bbf6-4ac8-908b-2357d1c4ce7b",
-									"type": "text",
-									"uuid": "fccc108e-6440-4e1f-b01c-d6d868b72642"
+									"key": "event",
+									"value": "job.created",
+									"type": "text"
 								}
-							]
-						},
-						"url": {
-							"raw": "{{base_url}}/webhook_subscriptions",
-							"host": [
-								"{{base_url}}"
-							],
-							"path": [
-								"webhook_subscriptions"
 							]
 						}
 					},
