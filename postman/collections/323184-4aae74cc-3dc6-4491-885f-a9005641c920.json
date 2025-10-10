@@ -917,6 +917,121 @@
 			"description": "This example contains Webhooks API for ServiceM8 [https://developer.servicem8.com/docs/webhooks-overview](https://developer.servicem8.com/docs/webhooks-overview)  \n\n- List webhook subscriptions\n    \n- Create webhook subscription for object\n    \n- Create webhook subscription for event. To view supported events please check [https://developer.servicem8.com/reference/post_event_webhook_subscription](https://developer.servicem8.com/reference/post_event_webhook_subscription)"
 		},
 		{
+			"name": "Authentication",
+			"item": [
+				{
+					"name": "Authorize",
+					"id": "323184-4d4035fb-4aea-4c99-90ce-e196d2c88d34",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "client_id",
+									"value": "{{client_id}}",
+									"type": "text",
+									"uuid": "87f81ca0-9dff-4fc3-aa08-a4389936c615"
+								},
+								{
+									"key": "scope",
+									"value": "{{scope}}",
+									"type": "text",
+									"uuid": "430f7cc4-54dd-4b3b-8567-88995e7e70ef"
+								},
+								{
+									"key": "redirect_uri",
+									"value": "",
+									"type": "text",
+									"uuid": "8b000ec3-3734-4099-bd3b-1b9bc25033b9",
+									"disabled": true
+								},
+								{
+									"key": "response_type",
+									"value": "code",
+									"type": "text",
+									"uuid": "60641be8-e170-48a8-b4b7-6eb0cd9156b9"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://go.servicem8.com/oauth/authorize",
+							"protocol": "https",
+							"host": [
+								"go",
+								"servicem8",
+								"com"
+							],
+							"path": [
+								"oauth",
+								"authorize"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Refresh Token",
+					"id": "323184-95837452-642f-44b0-90b9-5066113d5c51",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "grant_type",
+									"value": "refresh_token",
+									"type": "text",
+									"uuid": "60641be8-e170-48a8-b4b7-6eb0cd9156b9"
+								},
+								{
+									"key": "client_id",
+									"value": "{{client_id}}",
+									"type": "text",
+									"uuid": "87f81ca0-9dff-4fc3-aa08-a4389936c615"
+								},
+								{
+									"key": "client_secret",
+									"value": "{{client_secret}}",
+									"type": "text",
+									"uuid": "8b000ec3-3734-4099-bd3b-1b9bc25033b9"
+								},
+								{
+									"key": "refresh_token",
+									"value": "{{refresh_token}}",
+									"type": "text",
+									"uuid": "56e74e68-9f29-4f3f-bce6-cfd63e7831a3"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://go.servicem8.com/oauth/access_token",
+							"protocol": "https",
+							"host": [
+								"go",
+								"servicem8",
+								"com"
+							],
+							"path": [
+								"oauth",
+								"access_token"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "323184-ee439ab7-868e-4536-96e9-db030e6bf353"
+		},
+		{
 			"name": "Get data",
 			"event": [
 				{
