@@ -934,8 +934,7 @@
 									"key": "event",
 									"value": "job.created",
 									"type": "text",
-									"uuid": "042050dc-d371-4beb-9d18-f6980ec57e01",
-									"disabled": true
+									"uuid": "042050dc-d371-4beb-9d18-f6980ec57e01"
 								},
 								{
 									"key": "callback_url",
@@ -952,8 +951,8 @@
 									"disabled": true
 								},
 								{
-									"key": "object",
-									"value": "job",
+									"key": "type",
+									"value": "event",
 									"type": "text",
 									"uuid": "4951d9e3-0ada-4537-98f4-69d1835b7e59"
 								}
