@@ -951,7 +951,7 @@
 									"disabled": true
 								},
 								{
-									"key": "type",
+									"key": "object",
 									"value": "event",
 									"type": "text",
 									"uuid": "4951d9e3-0ada-4537-98f4-69d1835b7e59"
