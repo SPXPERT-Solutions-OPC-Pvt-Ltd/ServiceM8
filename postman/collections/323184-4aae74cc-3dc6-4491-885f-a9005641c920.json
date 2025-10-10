@@ -914,13 +914,15 @@
 									"key": "event",
 									"value": "job.status_changed",
 									"type": "text",
-									"uuid": "2ee21d1a-9cec-45f2-bbae-ce8ba95e9335"
+									"uuid": "2ee21d1a-9cec-45f2-bbae-ce8ba95e9335",
+									"disabled": true
 								},
 								{
 									"key": "event",
 									"value": "job.review_received",
 									"type": "text",
-									"uuid": "814dd149-f545-4e94-ab6f-5a80dcfd4b89"
+									"uuid": "814dd149-f545-4e94-ab6f-5a80dcfd4b89",
+									"disabled": true
 								}
 							]
 						},
