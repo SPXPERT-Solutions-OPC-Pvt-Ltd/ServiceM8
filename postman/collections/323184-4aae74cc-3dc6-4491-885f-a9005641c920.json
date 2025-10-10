@@ -1051,7 +1051,36 @@
 					"response": []
 				}
 			],
-			"id": "323184-ee439ab7-868e-4536-96e9-db030e6bf353"
+			"id": "323184-ee439ab7-868e-4536-96e9-db030e6bf353",
+			"auth": {
+				"type": "noauth"
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "bebaa57c-e658-4743-8008-7d3e5563993f",
+						"type": "text/javascript",
+						"packages": {},
+						"requests": {},
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "5ffae4cd-9fd0-4924-a453-cf85c56de9e2",
+						"type": "text/javascript",
+						"packages": {},
+						"requests": {},
+						"exec": [
+							""
+						]
+					}
+				}
+			]
 		},
 		{
 			"name": "Get data",
