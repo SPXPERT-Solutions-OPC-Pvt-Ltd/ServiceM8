@@ -934,7 +934,8 @@
 									"key": "event",
 									"value": "job.created",
 									"type": "text",
-									"uuid": "042050dc-d371-4beb-9d18-f6980ec57e01"
+									"uuid": "042050dc-d371-4beb-9d18-f6980ec57e01",
+									"disabled": true
 								},
 								{
 									"key": "callback_url",
@@ -952,20 +953,26 @@
 								},
 								{
 									"key": "object",
-									"value": "event",
+									"value": "job",
 									"type": "text",
-									"uuid": "4951d9e3-0ada-4537-98f4-69d1835b7e59"
+									"uuid": "4951d9e3-0ada-4537-98f4-69d1835b7e59",
+									"disabled": true
+								},
+								{
+									"key": "unique_id",
+									"value": "",
+									"type": "text",
+									"uuid": "fccc108e-6440-4e1f-b01c-d6d868b72642"
 								}
 							]
 						},
 						"url": {
-							"raw": "{{base_url}}/webhook_subscriptions/",
+							"raw": "{{base_url}}/webhook_subscriptions",
 							"host": [
 								"{{base_url}}"
 							],
 							"path": [
-								"webhook_subscriptions",
-								""
+								"webhook_subscriptions"
 							]
 						}
 					},
