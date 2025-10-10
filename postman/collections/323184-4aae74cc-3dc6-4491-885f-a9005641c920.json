@@ -934,19 +934,28 @@
 									"key": "event",
 									"value": "job.created",
 									"type": "text",
-									"uuid": "042050dc-d371-4beb-9d18-f6980ec57e01"
+									"uuid": "042050dc-d371-4beb-9d18-f6980ec57e01",
+									"disabled": true
 								},
 								{
 									"key": "callback_url",
 									"value": "{{callback_url}}",
 									"type": "text",
-									"uuid": "a3aa2f37-066e-4772-97d7-12abb9727fa0"
+									"uuid": "a3aa2f37-066e-4772-97d7-12abb9727fa0",
+									"disabled": true
 								},
 								{
 									"key": "event",
 									"value": "job.note_added",
 									"type": "text",
-									"uuid": "a385e579-7597-476e-be12-1b7f8f4172c4"
+									"uuid": "a385e579-7597-476e-be12-1b7f8f4172c4",
+									"disabled": true
+								},
+								{
+									"key": "object",
+									"value": "job",
+									"type": "text",
+									"uuid": "4951d9e3-0ada-4537-98f4-69d1835b7e59"
 								}
 							]
 						},
