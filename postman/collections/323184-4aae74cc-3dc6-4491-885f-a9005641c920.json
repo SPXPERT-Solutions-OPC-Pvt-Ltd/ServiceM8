@@ -1013,7 +1013,7 @@
 							]
 						},
 						"url": {
-							"raw": "https://go.servicem8.com/oauth/access_token",
+							"raw": "https://go.servicem8.com/oauth/access_token?grant_type=refresh_token&client_id={{client_id}}&client_secret={{client_secret}}&refresh_token={{refresh_token}}",
 							"protocol": "https",
 							"host": [
 								"go",
@@ -1023,6 +1023,28 @@
 							"path": [
 								"oauth",
 								"access_token"
+							],
+							"query": [
+								{
+									"key": "grant_type",
+									"value": "refresh_token",
+									"type": "text"
+								},
+								{
+									"key": "client_id",
+									"value": "{{client_id}}",
+									"type": "text"
+								},
+								{
+									"key": "client_secret",
+									"value": "{{client_secret}}",
+									"type": "text"
+								},
+								{
+									"key": "refresh_token",
+									"value": "{{refresh_token}}",
+									"type": "text"
+								}
 							]
 						}
 					},
