@@ -874,7 +874,7 @@
 					"response": []
 				},
 				{
-					"name": "Create Object Webhoook Subscription Copy",
+					"name": "Create Event Webhoook",
 					"id": "323184-cc5d7ba9-6165-4044-9a08-10af0c522fce",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -906,13 +906,13 @@
 							]
 						},
 						"url": {
-							"raw": "{{base_url}}/webhook_subscriptions/object",
+							"raw": "{{base_url}}/webhook_subscriptions/event",
 							"host": [
 								"{{base_url}}"
 							],
 							"path": [
 								"webhook_subscriptions",
-								"object"
+								"event"
 							]
 						}
 					},
