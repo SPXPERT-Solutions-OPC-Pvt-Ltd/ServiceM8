@@ -919,7 +919,7 @@
 					"response": []
 				},
 				{
-					"name": "Create Event Webhoook Subscription",
+					"name": "Delete Webhool Subscription",
 					"id": "323184-1ae83c35-e1d4-4282-88ac-198433f21f27",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
