@@ -960,7 +960,7 @@
 							"formdata": []
 						},
 						"url": {
-							"raw": "{{base_url}}/webhook_subscriptions?event=job.note_added",
+							"raw": "{{base_url}}/webhook_subscriptions?event=job.review_received",
 							"host": [
 								"{{base_url}}"
 							],
@@ -982,7 +982,7 @@
 								},
 								{
 									"key": "event",
-									"value": "job.note_added"
+									"value": "job.review_received"
 								}
 							]
 						}
