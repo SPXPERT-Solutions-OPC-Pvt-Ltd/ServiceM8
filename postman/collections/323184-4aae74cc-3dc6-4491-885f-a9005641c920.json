@@ -967,7 +967,7 @@
 								},
 								{
 									"key": "callback_url",
-									"value": "{{callback_url}}",
+									"value": "https://hook.eu2.make.com/pjmsufrpsawt3gdulfv2ck92pfbpsf9l",
 									"type": "text",
 									"uuid": "d21b4ac7-b3c7-4a8a-a895-be58132fa2b5"
 								},
