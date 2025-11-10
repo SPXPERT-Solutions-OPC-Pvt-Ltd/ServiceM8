@@ -947,6 +947,79 @@
 					"response": []
 				},
 				{
+					"name": "Create Event Webhook - Make.com",
+					"id": "323184-dd7005a8-c4c2-4915-8b97-40675c10ff67",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "object",
+									"value": "job",
+									"type": "text",
+									"uuid": "43da6dce-ca09-4b88-83c4-c14651bfd4f5",
+									"disabled": true
+								},
+								{
+									"key": "callback_url",
+									"value": "{{callback_url}}",
+									"type": "text",
+									"uuid": "d21b4ac7-b3c7-4a8a-a895-be58132fa2b5"
+								},
+								{
+									"key": "fields",
+									"value": "uuid, job_address,status",
+									"type": "text",
+									"uuid": "8aec487e-ce61-4ce7-bfc9-6f517b1dba8b"
+								},
+								{
+									"key": "event",
+									"value": "job.note_added",
+									"type": "text",
+									"uuid": "fc1a44dc-245a-4f89-a316-ad754c6681b6",
+									"disabled": true
+								},
+								{
+									"key": "event",
+									"value": "job.status_changed",
+									"type": "text",
+									"uuid": "2ee21d1a-9cec-45f2-bbae-ce8ba95e9335",
+									"disabled": true
+								},
+								{
+									"key": "event",
+									"value": "job.review_received",
+									"type": "text",
+									"uuid": "814dd149-f545-4e94-ab6f-5a80dcfd4b89",
+									"disabled": true
+								},
+								{
+									"key": "event",
+									"value": "job.created",
+									"type": "text",
+									"uuid": "191e1dd1-7b03-40ac-b985-de8c60b8126d"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_url}}/webhook_subscriptions/event",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"webhook_subscriptions",
+								"event"
+							]
+						}
+					},
+					"response": []
+				},
+				{
 					"name": "Delete Webhool Subscription",
 					"id": "323184-1ae83c35-e1d4-4282-88ac-198433f21f27",
 					"protocolProfileBehavior": {
