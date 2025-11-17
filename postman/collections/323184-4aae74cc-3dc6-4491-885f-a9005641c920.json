@@ -981,8 +981,7 @@
 									"key": "event",
 									"value": "job.note_added",
 									"type": "text",
-									"uuid": "fc1a44dc-245a-4f89-a316-ad754c6681b6",
-									"disabled": true
+									"uuid": "fc1a44dc-245a-4f89-a316-ad754c6681b6"
 								},
 								{
 									"key": "event",
@@ -1002,7 +1001,8 @@
 									"key": "event",
 									"value": "job.created",
 									"type": "text",
-									"uuid": "191e1dd1-7b03-40ac-b985-de8c60b8126d"
+									"uuid": "191e1dd1-7b03-40ac-b985-de8c60b8126d",
+									"disabled": true
 								}
 							]
 						},
