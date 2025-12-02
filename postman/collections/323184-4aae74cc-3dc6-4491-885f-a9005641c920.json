@@ -1432,13 +1432,25 @@
 		}
 	],
 	"auth": {
-		"type": "apikey"
+		"type": "apikey",
+		"apikey": [
+			{
+				"key": "value",
+				"value": "{{api_key}}",
+				"type": "string"
+			},
+			{
+				"key": "key",
+				"value": "X-API-KEY",
+				"type": "string"
+			}
+		]
 	},
 	"event": [
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "d598569c-85f1-4dec-b11e-3d09826a7ed7",
+				"id": "715131ba-a252-4cf2-94a8-8305ff920045",
 				"type": "text/javascript",
 				"requests": {},
 				"exec": [
@@ -1449,7 +1461,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "b4a6d0db-9834-487f-96e8-a9507c31e7dc",
+				"id": "622b5282-b618-41b9-8f7f-3633fafb0118",
 				"type": "text/javascript",
 				"requests": {},
 				"exec": [
