@@ -1435,107 +1435,7 @@
 		"type": "oauth2",
 		"oauth2": [
 			{
-				"key": "refreshRequestParams",
-				"value": [
-					{
-						"key": "grant_type",
-						"value": "refresh_token",
-						"enabled": true,
-						"send_as": "request_body"
-					},
-					{
-						"key": "client_id",
-						"value": "{{client_id}}",
-						"enabled": true,
-						"send_as": "request_body"
-					},
-					{
-						"key": "client_secret",
-						"value": "{{client_secret}}",
-						"enabled": true,
-						"send_as": "request_body"
-					},
-					{
-						"key": "refresh_token",
-						"value": "{{refresh_token}}",
-						"enabled": true,
-						"send_as": "request_body"
-					}
-				],
-				"type": "any"
-			},
-			{
-				"key": "refreshTokenUrl",
-				"value": "https://go.servicem8.com/oauth/access_token",
-				"type": "string"
-			},
-			{
-				"key": "redirect_uri",
-				"value": "",
-				"type": "string"
-			},
-			{
-				"key": "scope",
-				"value": "{{scope}}",
-				"type": "string"
-			},
-			{
-				"key": "state",
-				"value": "10042025",
-				"type": "string"
-			},
-			{
 				"key": "addTokenTo",
-				"value": "queryParams",
-				"type": "string"
-			},
-			{
-				"key": "tokenName",
-				"value": "SM8-token",
-				"type": "string"
-			},
-			{
-				"key": "clientId",
-				"value": "{{client_id}}",
-				"type": "string"
-			},
-			{
-				"key": "grant_type",
-				"value": "authorization_code",
-				"type": "string"
-			},
-			{
-				"key": "accessTokenUrl",
-				"value": "https://go.servicem8.com/oauth/access_token",
-				"type": "string"
-			},
-			{
-				"key": "authUrl",
-				"value": "https://go.servicem8.com/oauth/authorize",
-				"type": "string"
-			},
-			{
-				"key": "tokenRequestParams",
-				"value": [],
-				"type": "any"
-			},
-			{
-				"key": "authRequestParams",
-				"value": [],
-				"type": "any"
-			},
-			{
-				"key": "challengeAlgorithm",
-				"value": "S256",
-				"type": "string"
-			},
-			{
-				"key": "clientSecret",
-				"value": "{{client_secret}}",
-				"type": "string"
-			},
-			{
-				"key": "client_authentication",
 				"value": "header",
 				"type": "string"
 			}
@@ -1545,7 +1445,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "ff79fac3-9fdd-4dd7-86b7-72d78c3d059f",
+				"id": "c8768ae6-82c0-42cc-97ba-3cb00aa68930",
 				"type": "text/javascript",
 				"requests": {},
 				"exec": [
@@ -1556,7 +1456,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "23236e9b-033f-45e7-a67d-7ebc4cc241e1",
+				"id": "4a468da4-2c15-4a92-9220-8f7c81d17470",
 				"type": "text/javascript",
 				"requests": {},
 				"exec": [
