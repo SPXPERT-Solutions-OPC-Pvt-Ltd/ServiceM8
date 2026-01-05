@@ -1264,8 +1264,18 @@
 						"disableBodyPruning": true
 					},
 					"request": {
-						"method": "GET",
-						"header": []
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api_1.0/company.json",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api_1.0",
+								"company.json"
+							]
+						}
 					},
 					"response": []
 				}
