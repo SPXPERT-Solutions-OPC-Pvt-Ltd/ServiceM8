@@ -1255,6 +1255,24 @@
 			]
 		},
 		{
+			"name": "Client",
+			"item": [
+				{
+					"name": "New Request",
+					"id": "323184-1f32b383-d01a-4aab-88c2-ef5c158f8d77",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			],
+			"id": "323184-de8b142b-6d68-476b-a644-4cebc0ddf3df"
+		},
+		{
 			"name": "Get data",
 			"event": [
 				{
