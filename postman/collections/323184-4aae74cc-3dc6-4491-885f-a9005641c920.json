@@ -1268,7 +1268,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"name\": \"Alexandre Boyes\",\n    \"abn_number\": \"529\",\n    \"address\": \"1, West Street\",\n    \"billing_address\": \"1, West Street, Orchard Street, East Grinstead West Sussex RH19 4EY\",\n    \"uuid\": \"123e4567-4743-4b11-9c6b-234d58dbdacb\",\n    \"website\": \"\",\n    \"is_individual\": \"\",\n    \"address_street\": \"Orchard Street\",\n    \"address_city\": \"East Grinstead\",\n    \"address_state\": \"West Sussex\",\n    \"address_postcode\": \"RH19 4EY\",\n    \"address_country\": \"United Kingdom\",\n    \"fax_number\": \"\",\n    \"badges\": \"\",\n    \"tax_rate_uuid\": \"\",\n    \"billing_attention\": \"\",\n    \"payment_terms\": \"string\"\n}",
+							"raw": "{\n    \"name\": \"Alexandre Boyes\",\n    \"abn_number\": \"529\",\n    \"address\": \"1, West Street\",\n    \"billing_address\": \"1, West Street, Orchard Street, East Grinstead West Sussex RH19 4EY\",\n    \"uuid\": \"123e4567-4743-4b11-9c6b-234d58dbdacb\",\n    \"website\": \"\",\n    \"is_individual\": \"\",\n    \"address_street\": \"Orchard Street\",\n    \"address_city\": \"East Grinstead\",\n    \"address_state\": \"West Sussex\",\n    \"address_postcode\": \"RH19 4EY\",\n    \"address_country\": \"United Kingdom\",\n    \"fax_number\": \"\",\n    \"badges\": \"\",\n    \"tax_rate_uuid\": \"\",\n    \"billing_attention\": \"\",\n    \"payment_terms\": \"\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
