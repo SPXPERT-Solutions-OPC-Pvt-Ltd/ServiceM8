@@ -1258,7 +1258,7 @@
 			"name": "Client",
 			"item": [
 				{
-					"name": "New Request",
+					"name": "Create",
 					"id": "323184-1f32b383-d01a-4aab-88c2-ef5c158f8d77",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
